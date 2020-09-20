@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	font-size: 36px;
+	color: green;
+	font-style: italic;
+	margin-bottom: 40px;
+	text-align: center;
+}
+p{
+	margin:10px;
+	padding: 10px;
+	text-align: center;
+	clear:right;
+
+}
+div{
+	margin-right: 10px;
+	margin-left: 10px;
+
+
+}	
+
+}
+body{
+	font-size: 30px;
+	font-style: bold;
+	text-align: center;
+
+}
+
+#d1{
+	background-color: orange;
+}
+#d2{
+	background-color: yellow;
+}
+
+#d3{
+	background-color: red;
+}
+span{
+	float: right;
+	border: 2px solid black;
+	padding: 10px;
+
+}
+#pizza{
+	background-color: brown;
+
+}
+#burger{
+	background-color: green;
+}
+#pasta{
+	background-color: blue;
+}
+
+@media(min-width: 992px){
+	#d1,#d2,#d3{
+		float: left;
+		width: 31%;
+		height: 180px;
+		border: 1px solid black;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	#d1,#d2{
+		width:45%;
+		float: left;
+		height: 150px;
+		margin-bottom: 10px;
+		border: 1px solid black;
+	}
+	#d3{
+		width: 92.5%;
+		float: left;
+		height: 150px;
+		border: 1px solid black;
+	}
+}
+@media(min-width: 50px) and (max-width: 767px){
+    #d1,#d2,#d3{
+		width: 95%;
+		border: 1px solid black;
+		margin-bottom: 10px;
+
+	}	
+}
